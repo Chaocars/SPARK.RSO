@@ -168,6 +168,12 @@ main {
 }
 
 /* -- Hero Section (for homepage) -- */
+.hero-logo {
+    max-width: 200px; /* Adjust this value as needed (e.g., 200px, 400px) */
+    height: auto;    /* Maintain aspect ratio */
+    display: block;  /* Remove extra space below the image */
+    margin: 0 auto 20px auto; /* Center the image and add some space below it */
+}
 .hero {
     background-color: var(--color-black);
     color: var(--color-text-on-dark);
